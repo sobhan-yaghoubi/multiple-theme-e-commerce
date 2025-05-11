@@ -1,7 +1,7 @@
 "use server"
 
 import { StoreConfigType } from "@/context/StoreConfig.context"
-import { defaultDomain, mockDataConfigs } from "@/middleware"
+import { defaultDomain, mockDataConfigs } from "@/config/theme"
 import { headers } from "next/headers"
 
 export const getStoreConfig = async (): Promise<StoreConfigType> => {
